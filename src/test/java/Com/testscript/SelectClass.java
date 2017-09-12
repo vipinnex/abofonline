@@ -16,7 +16,7 @@ public class SelectClass extends BaseClass{
 	
 		
 		driver.findElement(By.xpath("//input[@ng-model='FirstName']")).sendKeys("vipin");
-		driver.findElement(By.xpath("//input[@ ng-model='LastName']")).sendKeys("nex");
+		driver.findElement(By.xpath("//input[@ ng-model='LastName']")).sendKeys("vipin");
 	driver.findElement(By.tagName("textarea")).sendKeys("btm bangalore");
 		
      driver.findElement(By.xpath("//input[@ng-model='EmailAdress']")).sendKeys("vipin.nex@gmail.com");	
